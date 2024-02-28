@@ -31,7 +31,7 @@
 
 Было проведено сравнение качества моделей по различным наборам признаков. Лучшие результаты для каждой модели:
 
-  1. Logistic Regression
+  1. Logistic Regression<br>
   Best Metrics by auc_roc:<br>
   {'accuracy': 0.57, 'precision': 0.54, 'recall': 0.74, 'f1': 0.63, 'auc_roc': 0.58}<br>
   Best Features: (0, 4, 5, 6)<br>
