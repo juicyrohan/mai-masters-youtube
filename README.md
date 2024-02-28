@@ -51,7 +51,7 @@
 !!! Здесь можно проверить гипотезу о равенстве auc roc для разных наборов признаков (есть ли статистически значимое различие).
 
 
-
+<!--
 Features:
 1. TF-IDF
 2. Cosine similarity (Word2Vec)
@@ -65,3 +65,4 @@ Classifier models:
 1. Logistic Regression
 2. Gradient Boosting (LightGBM)
 3. Gaussian Naive Bayes
+-->
