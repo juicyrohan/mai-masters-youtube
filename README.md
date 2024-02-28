@@ -33,15 +33,19 @@
 
   1. Logistic Regression<br>
   Best Metrics by auc_roc:<br>
-  {'accuracy': 0.57, 'precision': 0.54, 'recall': 0.74, 'f1': 0.63, 'auc_roc': 0.58}<br>
+  accuracy: 0.57<br>precision: 0.54 <br> recall: 0.74 <br> f1: 0.63 <br> auc_roc: 0.58<br>
   Best Features: (0, 4, 5, 6)y_wv, y_comment_length, y_emoji_count, y_punct<br>
   
-  2. Gaussian Naive Bayes<br>
-  Best Metrics by auc_roc: {accuracy: 0.58,precision: 0.54, recall: 0.91, f1: 0.68, auc_roc: 0.59}<br>
-  Best Features: (1, 2, 4, 5, 6)) y_ft, y_tfidf, y_comment_length, y_emoji_count, y_punct<br>
+  3. Gaussian Naive Bayes<br>
+  Best Metrics by auc_roc:<br>
+  accuracy: 0.58 <br> precision: 0.54 <br> recall: 0.91 <br> f1: 0.68 <br> auc_roc: 0.59<br>
+  Best Features: ft, tfidf, comment_length, emoji_count, punct<br>
   
-  3. LigthGBM<br>
-  Best Metrics by auc_roc: {'accuracy': 0.96,'precision': 0.95, 'recall': 0.98, 'f1': 0.96, 'auc_roc': 0.97}<br>
+  5. LigthGBM<br>
+  Best Metrics by auc_roc:<br>
+  accuracy: 0.96 <br>
+  precision: 0.95 <br>
+  recall': 0.98 <br> f1: 0.96 <br> auc_roc: 0.97<br>
   Best Features: (0, 1, 2, 3, 4, 5, 6) y_wv, y_ft, y_tfidf, y_comment_length, y_emoji_count, y_punct<br>
   
 !!! Здесь можно проверить гипотезу о равенстве auc roc для разных наборов признаков (есть ли статистически значимое различие).
@@ -49,7 +53,7 @@
 
 
 Features:
-1. TF-IDf
+1. TF-IDF
 2. Cosine similarity (Word2Vec)
 3. Cosine similarity (FastText)
 4. Dostoevsky toxicity
