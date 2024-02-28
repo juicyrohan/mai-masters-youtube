@@ -37,13 +37,13 @@
   Best Features: (0, 4, 5, 6)<br>
   
   2. Gaussian Naive Bayes<br>
-  Best Metrics by auc_roc: {'accuracy': 0.58,'precision': 0.54, 'recall': 0.91, 'f1': 0.68, 'auc_roc': 0.59}<br>
+  Best Metrics by auc_roc: {accuracy: 0.58,precision: 0.54, recall: 0.91, f1: 0.68, auc_roc: 0.59}<br>
   Best Features: (1, 2, 4, 5, 6))<br>
   
   3. LigthGBM<br>
-  Best Metrics by auc_roc: {'accuracy': 0.58,'precision': 0.54, 'recall': 0.91, 'f1': 0.68, 'auc_roc': 0.59}<br>
-  Best Features: (1, 2, 4, 5, 6))<br>
-
+  Best Metrics by auc_roc: {'accuracy': 0.96,'precision': 0.95, 'recall': 0.98, 'f1': 0.96, 'auc_roc': 0.97}<br>
+  Best Features: (0, 1, 2, 3, 4, 5, 6)<br>
+  
 !!! Здесь можно проверить гипотезу о равенстве auc roc для разных наборов признаков (есть ли статистически значимое различие).
 
 
