@@ -34,7 +34,7 @@
   1. Logistic Regression<br>
   Best Metrics by auc_roc:<br>
   accuracy: 0.57<br>precision: 0.54 <br> recall: 0.74 <br> f1: 0.63 <br> auc_roc: 0.58<br>
-  Best Features: (0, 4, 5, 6)y_wv, y_comment_length, y_emoji_count, y_punct<br>
+  Best Features: wv, comment_length, emoji_count, punct<br>
   
   3. Gaussian Naive Bayes<br>
   Best Metrics by auc_roc:<br>
@@ -46,7 +46,7 @@
   accuracy: 0.96 <br>
   precision: 0.95 <br>
   recall': 0.98 <br> f1: 0.96 <br> auc_roc: 0.97<br>
-  Best Features: (0, 1, 2, 3, 4, 5, 6) y_wv, y_ft, y_tfidf, y_comment_length, y_emoji_count, y_punct<br>
+  Best Features: wv, ft, tfidf, comment_length, emoji_count, punct<br>
   
 !!! Здесь можно проверить гипотезу о равенстве auc roc для разных наборов признаков (есть ли статистически значимое различие).
 
