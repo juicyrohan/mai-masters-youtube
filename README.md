@@ -3,9 +3,9 @@ Features:
 2. Cosine similarity (Word2Vec)
 3. Cosine similarity (FastText)
 4. Dostoevsky toxicity
-5. comment length
-6. number of emojis
-7. punctuation symbols ratio
+5. Comment length
+6. Number of emojis
+7. Punctuation symbols ratio
 
 Classifier models:
 1. Logistic Regression
