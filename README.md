@@ -38,7 +38,7 @@
     recall: 0.74 <br>
     f1: 0.63 <br>
     auc_roc: 0.58<br>
-  Best Features: wv, comment_length, emoji_count, punct<br>
+  **Best Features**: wv, comment_length, emoji_count, punct<br>
   
   3. Gaussian Naive Bayes<br>
   **Best Metrics** by auc_roc:<br>
