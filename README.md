@@ -32,17 +32,17 @@
 Было проведено сравнение качества моделей по различным наборам признаков. Лучшие результаты для каждой модели:
 
   1. Logistic Regression
-  Best Metrics by auc_roc:/n
+  Best Metrics by auc_roc:<br>
   {'accuracy': 0.57, 'precision': 0.54, 'recall': 0.74, 'f1': 0.63, 'auc_roc': 0.58}<br>
-  Best Features: (0, 4, 5, 6)/n
+  Best Features: (0, 4, 5, 6)<br>
   
   3. Gaussian Naive Bayes
-  Best Metrics by auc_roc: {'accuracy': 0.58,'precision': 0.54, 'recall': 0.91, 'f1': 0.68, 'auc_roc': 0.59},
-  Best Features: (1, 2, 4, 5, 6))
+  Best Metrics by auc_roc: {'accuracy': 0.58,'precision': 0.54, 'recall': 0.91, 'f1': 0.68, 'auc_roc': 0.59}<br>
+  Best Features: (1, 2, 4, 5, 6))<br>
   
   4. LigthGBM
-  Best Metrics by auc_roc: {'accuracy': 0.58,'precision': 0.54, 'recall': 0.91, 'f1': 0.68, 'auc_roc': 0.59},
-  Best Features: (1, 2, 4, 5, 6))
+  Best Metrics by auc_roc: {'accuracy': 0.58,'precision': 0.54, 'recall': 0.91, 'f1': 0.68, 'auc_roc': 0.59}<br>
+  Best Features: (1, 2, 4, 5, 6))<br>
 
 
 
