@@ -57,6 +57,25 @@
     f1: 0.96 <br>
     auc_roc: 0.97<br>
   **Best Features**: wv, ft, tfidf, comment_length, emoji_count, punct<br>
+
+  | Model                | Sampling Technique |   Accuracy |   Precision |   Recall |   F1 Score |
+|:---------------------|:-------------------|-----------:|------------:|---------:|-----------:|
+| Logistic Regression | SMOTE              |       0.57 |        0.55 |     0.74 |       0.63 |
+| Logistic Regression | ADASYN             |       0.58 |        0.55 |     0.68 |       0.61 |
+| Logistic Regression | ROS                |       0.56 |        0.54 |     0.70 |       0.61 |
+| Logistic Regression | NM1                |       0.96 |        1.00 |     0.91 |       0.95 |
+| Logistic Regression | NM2                |         NA |           NA |       NA |         NA |
+| Gaussian Naive Bayes| SMOTE              |       0.58 |        0.54 |     0.91 |       0.68 |
+| Gaussian Naive Bayes| ADASYN             |       0.58 |        0.54 |     0.91 |       0.68 |
+| Gaussian Naive Bayes| ROS                |       0.57 |        0.61 |     0.35 |       0.45 |
+| Gaussian Naive Bayes| NM1                |       1.00 |        1.00 |     1.00 |       1.00 |
+| Gaussian Naive Bayes| NM2                |       1.00 |        1.00 |     1.00 |       1.00 |
+| LightGBM             | SMOTE              |       0.97 |        0.95 |     0.99 |       0.97 |
+| LightGBM             | ADASYN             |       0.95 |        0.94 |     0.97 |       0.95 |
+| LightGBM             | ROS                |       1.00 |        1.00 |     1.00 |       1.00 |
+| LightGBM             | NM1                |       1.00 |        1.00 |     1.00 |       1.00 |
+| LightGBM             | NM2                |       1.00 |        1.00 |     1.00 |       1.00 |
+
   
 !!! Здесь можно проверить гипотезу о равенстве auc roc для разных наборов признаков (есть ли статистически значимое различие).
 
