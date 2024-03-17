@@ -69,7 +69,7 @@ SMOTE, ADASYN, RandomOverSampler, NearMiss(1), NearMiss(2). <br>
 | Logistic Regression | ADASYN             |       0.58 |        0.55 |     0.68 |       0.61 |
 | Logistic Regression | ROS                |       0.56 |        0.54 |     0.70 |       0.61 |
 | Logistic Regression | NM1                |       0.96 |        1.00 |     0.91 |       0.95 |
-| Logistic Regression | NM2                |         NA |           NA |       NA |         NA |
+| Logistic Regression | NM2                |       1.00 |        1.00 |     1.00 |       1.00 |
 | Gaussian Naive Bayes| SMOTE              |       0.58 |        0.54 |     0.91 |       0.68 |
 | Gaussian Naive Bayes| ADASYN             |       0.58 |        0.54 |     0.91 |       0.68 |
 | Gaussian Naive Bayes| ROS                |       0.57 |        0.61 |     0.35 |       0.45 |
