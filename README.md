@@ -58,6 +58,7 @@ SMOTE, ADASYN, RandomOverSampler, NearMiss(1), NearMiss(2). <br>
     f1: 0.96 <br>
     auc_roc: 0.97<br>
   **Best Features**: wv, ft, tfidf, comment_length, emoji_count, punct<br>
+  !!! Здесь можно проверить гипотезу о равенстве auc roc для разных наборов признаков (есть ли статистически значимое различие) !!!
   
 Таблица сравнения методов пересемплирования и недосемплирования:
   | Model                | Sampling Technique |   Accuracy |   Precision |   Recall |   F1 Score |
@@ -78,8 +79,10 @@ SMOTE, ADASYN, RandomOverSampler, NearMiss(1), NearMiss(2). <br>
 | LightGBM             | NM1                |       1.00 |        1.00 |     1.00 |       1.00 |
 | LightGBM             | NM2                |       1.00 |        1.00 |     1.00 |       1.00 |
 
-  
-!!! Здесь можно проверить гипотезу о равенстве auc roc для разных наборов признаков (есть ли статистически значимое различие).
+!!! Можно попробовать другие метрики качества !!!
+!!! Можно попробовать ансамблевые методы !!!
+На следующем этапе иссследования планируется построить классификатор для 3 групп комментариев (обычные, боты, тролли).
+
 
 
 <!--
@@ -97,3 +100,4 @@ Classifier models:
 2. Gradient Boosting (LightGBM)
 3. Gaussian Naive Bayes
 -->
+
