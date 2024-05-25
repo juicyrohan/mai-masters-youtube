@@ -1,1 +1,4 @@
 *.bin
+*.txt
+*.json
+*.pkl
